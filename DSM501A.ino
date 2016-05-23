@@ -1,7 +1,7 @@
 #include "MeOrion.h"
 #include <SoftwareSerial.h>
 
-const int pin = 2 ;// the input pin connect the Vout2 of Dust Sensor 
+const int pin = 2 ;// the input pin connect with the Vout2 of Dust Sensor 
 MeHumiture humiture(PORT_6);
 MeSerial mySerial(PORT_5);
 

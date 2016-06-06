@@ -1,4 +1,6 @@
-# Me_DSM501A
-1.Use the Temperature and Humidity Sensor,DSM501A Dust Sensor and TFT LCD Screen; 
-2.Detect PM2.5 , Humidity and temperature ;
-3.Display on TFT
+改变连线以适应RJ25接口。由于在本案例中为检测pm2.5值，故最小粒子检测能力为1um。使用到的引脚为
+#2（Vout2），
+#3（电源正），
+#5（电源地）
+
+使用MeOrion上Port4进行控制。连接传感器Vout2引脚为Orion板上的数字引脚2.
